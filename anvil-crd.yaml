@@ -7,7 +7,7 @@ spec:
   group: acme.com
   versions:
     - name: v1
-      served: false
+      served: true
       storage: false
     - name: v2
       served: true
