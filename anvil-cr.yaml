@@ -1,0 +1,8 @@
+apiVersion: acme.com/v1
+kind: Anvil
+metadata:
+  labels:
+    nomos-test: enabled
+  name: e2e-test-anvil
+spec:
+  lbs: 10
